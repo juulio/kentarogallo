@@ -1,4 +1,4 @@
-import './style.css'
+import './scss/styles.scss'
 import logo from '/logo.png'
 
 document.querySelector('#app').innerHTML = `
