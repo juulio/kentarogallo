@@ -1,0 +1,36 @@
+nav {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  width: 100%;
+  background: #fff;
+  padding-top: 1vw;
+  // box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  .nav-logo {
+    img {
+      height: 40px; // Adjust based on your PNG size
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li {
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+      color: #9c9898;
+    }
+  }
+}

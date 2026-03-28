@@ -1,5 +1,9 @@
 :root {
-  font-family: Helvetica, Arial, sans-serif;
+  // font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Work+Sans', sans-serif;
+  font-weight: 200; // This ensures it uses the Extra Light weight
+  -webkit-font-smoothing: antialiased; // Makes thin fonts look crisper
+  -moz-osx-font-smoothing: grayscale;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -20,4 +24,10 @@
 
 body {
   margin: 0;
+}
+
+#wrapper {
+  max-width: 1280px;
+  width: 80vw;
+  margin: 0 auto;
 }
