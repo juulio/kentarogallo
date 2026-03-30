@@ -30,4 +30,7 @@ body {
   max-width: 1280px;
   width: 80vw;
   margin: 0 auto;
+
+  // Prevents text from hitting edges on mobile
+  padding: 0 2rem;
 }
